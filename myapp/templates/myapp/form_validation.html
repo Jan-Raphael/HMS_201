@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.M.M. Sign-in </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 378px;
+        }
+
+        .btn{
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Sign-up Here</h1>
+        <form  action="/submit" method="post">
+            <thead>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input name="first_name"></td>
+                </tr>
+
+                <tr>
+                    <td>Middle Name:</td>
+                    <td><input name="middle_name"></td>
+                </tr>
+
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input name="last_name"></td>
+                </tr>
+
+                <tr>
+                    <td>Email Address:</td>
+                    <td><input name="email_address"></td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input placeholder="Month/DD/YYYY" name="date_of_birth"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender:</td>
+                    <td><input name="gender"></td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="number" name="phone_number"></td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>w
+                    <td><input name="address"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" class="btn" value="Register"></td>
+                </tr>
+            </thead>
+        </form>
+    </div>
+</body>
+</html>
